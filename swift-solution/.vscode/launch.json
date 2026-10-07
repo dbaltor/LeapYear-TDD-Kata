@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-solution}",
+      "name": "Debug swift-solution",
+      "target": "swift-solution",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug swift-solution"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-solution}",
+      "name": "Release swift-solution",
+      "target": "swift-solution",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release swift-solution"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+package codingdojo
+
+class LeapYear {
+}
